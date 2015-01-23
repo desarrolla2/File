@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the marvel package.
+ * This file is part of the File package.
  *
  * Copyright (c) Daniel González
  *
