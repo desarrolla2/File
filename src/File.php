@@ -60,8 +60,8 @@ class File
             }
         }
 
-        $handler = fopen($fileName, "w");
-        fwrite($handler, (string) $data);
+        $handler = fopen($fileName, 'w');
+        fwrite($handler, (string)$data);
         fclose($handler);
     }
 }
