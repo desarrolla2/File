@@ -45,11 +45,15 @@ class File
     /**
      * @param string $fileName
      * @param string $data
+     * @param string $mode
      *
      * @throws RuntimeException
      */
-    public static function write($fileName, $data)
+    public static function write($fileName, $data, $mode = 'w')
     {
+        if ($mode != 'w' && $mode != 'w+') {
+            throw new \InvalidArgumentException('mode "'.$mode.'" is not valid');
+        }
         if (!file_exists($fileName)) {
             if (!is_writable(dirname($fileName))) {
                 throw new RuntimeException($fileName.' not writable');
@@ -60,7 +64,7 @@ class File
             }
         }
 
-        $handler = fopen($fileName, 'w');
+        $handler = fopen($fileName, $mode);
         fwrite($handler, (string)$data);
         fclose($handler);
     }
