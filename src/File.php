@@ -65,7 +65,7 @@ class File
         }
 
         $handler = fopen($fileName, $mode);
-        fwrite($handler, (string)$data);
+        fwrite($handler, (string) $data);
         fclose($handler);
     }
 }

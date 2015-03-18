@@ -18,6 +18,15 @@
             <exec executable="php-formatter">
                 <arg line="formatter:use:sort src"/>
             </exec>
+            <exec executable="php-cs-fixer">
+                <arg line="fix tests"/>
+            </exec>
+            <exec executable="php-formatter">
+                <arg line="formatter:header:fix tests"/>
+            </exec>
+            <exec executable="php-formatter">
+                <arg line="formatter:use:sort tests"/>
+            </exec>
         </parallel>
     </target>
 
