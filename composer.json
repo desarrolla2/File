@@ -1,10 +1,19 @@
 {
   "name": "desarrolla2/file",
+  "description": "Provide simple api to read and write files",
+  "keywords": [
+    "file",
+    "read",
+    "write",
+    "json"
+  ],
+  "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Daniel González Cerviño",
       "email": "daniel@desarrolla2.com"
-   cd .. }
+    }
   ],
   "require": {
     "php": "~5.4"
