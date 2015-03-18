@@ -4,10 +4,10 @@
     {
       "name": "Daniel González Cerviño",
       "email": "daniel@desarrolla2.com"
-    }
+   cd .. }
   ],
   "require": {
-    "php": ">=5.4.0"
+    "php": "~5.4"
   },
   "autoload": {
     "psr-4": {
