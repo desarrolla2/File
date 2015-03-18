@@ -16,3 +16,6 @@ notifications:
 
 before_script:
   - composer install --prefer-source --no-interaction
+
+script:
+  - bin/atoum --test-all
