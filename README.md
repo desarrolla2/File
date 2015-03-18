@@ -1,4 +1,4 @@
-# Timer
+# File
 
 This provide a simple api to read and write files
 
@@ -11,7 +11,7 @@ This provide a simple api to read and write files
 ### With Composer
 
 It is best installed it through [packagist](http://packagist.org/packages/desarrolla2/file) 
-by including `desarrolla2/timer` in your project composer.json require:
+by including `desarrolla2/file` in your project composer.json require:
 
 ``` json
     "require": {
