@@ -2,9 +2,7 @@
 
 This provide a simple api to read and write files
 
-[![Build Status](https://secure.travis-ci.org/desarrolla2/File.png)](http://travis-ci.org/desarrolla2/File)
-
-[![Latest Stable Version](https://poser.pugx.org/desarrolla2/file/v/stable.png)](https://packagist.org/packages/desarrolla2/file) [![Total Downloads](https://poser.pugx.org/desarrolla2/file/downloads.png)](https://packagist.org/packages/desarrolla2/file)
+[![Build Status](https://secure.travis-ci.org/desarrolla2/File.png)](http://travis-ci.org/desarrolla2/File) [![Latest Stable Version](https://poser.pugx.org/desarrolla2/file/v/stable.png)](https://packagist.org/packages/desarrolla2/file) [![Total Downloads](https://poser.pugx.org/desarrolla2/file/downloads.png)](https://packagist.org/packages/desarrolla2/file)
 
 ## Installation
 
