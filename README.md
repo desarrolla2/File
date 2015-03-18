@@ -1,6 +1,6 @@
 # Timer
 
-This script works as simple timer control to your app
+This provide a simple api to read and write files
 
 [![Build Status](https://secure.travis-ci.org/desarrolla2/File.png)](http://travis-ci.org/desarrolla2/File)
 
@@ -43,9 +43,12 @@ File::read($fileName);
 
 ```
 
-## Formatting
+## Formats
 
-//..
+Current supported formats are:
+
+- File: raw data
+- Json: encode arrays to json files.
 
 ## Contact
 
