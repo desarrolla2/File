@@ -20,6 +20,10 @@ use Desarrolla2\File\Json;
  */
 class JsonTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @coverage Desarrolla2\File\Json::read
+     * @coverage Desarrolla2\File\Json::write
+     */
     public function testWriteAndRead()
     {
         $fileName = sys_get_temp_dir().'/'.uniqid(true).'.php.test';

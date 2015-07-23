@@ -45,7 +45,7 @@ class Json extends File
      *
      * @throws RuntimeException
      */
-    public static function write($fileName, $data)
+    public static function write($fileName, $data, $mode = 'w')
     {
         $json = json_encode($data, JSON_PRETTY_PRINT);
 
@@ -53,6 +53,6 @@ class Json extends File
             throw new \RuntimeException(json_last_error_msg());
         }
 
-        parent::write($fileName, $json);
+        parent::write($fileName, $json, $mode);
     }
 }
