@@ -20,6 +20,10 @@ use Desarrolla2\File\File;
  */
 class FileTest extends \PHPUnit_Framework_TestCase
 {
+    /**
+     * @coverage Desarrolla2\File\File::read
+     * @coverage Desarrolla2\File\File::write
+     */
     public function testWriteAndRead()
     {
         $fileName = sys_get_temp_dir().'/'.uniqid(true).'.php.test';
