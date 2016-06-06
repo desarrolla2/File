@@ -20,6 +20,8 @@ use RuntimeException;
  */
 class File
 {
+    protected static $allowedModes = array('w', 'w+', 'a', 'a+');
+
     /**
      * @param string $fileName
      *
@@ -51,7 +53,7 @@ class File
      */
     public static function write($fileName, $data, $mode = 'w')
     {
-        if ($mode != 'w' && $mode != 'w+') {
+        if (in_array($mode, self::$allowedModes)) {
             throw new \InvalidArgumentException('mode "'.$mode.'" is not valid');
         }
         if (!file_exists($fileName)) {
