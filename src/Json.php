@@ -42,6 +42,7 @@ class Json extends File
     /**
      * @param string $fileName
      * @param array  $data
+     * @param string $mode
      *
      * @throws RuntimeException
      */
